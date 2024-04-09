@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0B35AE2BC2636900AC0F65 /* iCalendarParser in Frameworks */ = {isa = PBXBuildFile; productRef = EB0B35AD2BC2636900AC0F65 /* iCalendarParser */; };
+		EB2138A02BC021D70085644C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB21389F2BC021D70085644C /* Event.swift */; };
+		EB2138A22BC023840085644C /* TasksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2138A12BC023840085644C /* TasksModel.swift */; };
+		EB25C9F62BC044180089F657 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25C9F52BC044180089F657 /* AboutView.swift */; };
+		EB97207B2BC298D5006AE7FA /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97207A2BC298D5006AE7FA /* LinkModel.swift */; };
+		EB97207D2BC29901006AE7FA /* LinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97207C2BC29901006AE7FA /* LinkViewModel.swift */; };
+		EBB5956A2BBD6DF300DF6D3E /* IHausmeisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB595692BBD6DF300DF6D3E /* IHausmeisterApp.swift */; };
+		EBB5956C2BBD6DF300DF6D3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5956B2BBD6DF300DF6D3E /* ContentView.swift */; };
+		EBB5956E2BBD6DF400DF6D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB5956D2BBD6DF400DF6D3E /* Assets.xcassets */; };
+		EBB595712BBD6DF400DF6D3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB595702BBD6DF400DF6D3E /* Preview Assets.xcassets */; };
+		EBB5957B2BBD6DF400DF6D3E /* IHausmeisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5957A2BBD6DF400DF6D3E /* IHausmeisterTests.swift */; };
+		EBB595852BBD6DF400DF6D3E /* IHausmeisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB595842BBD6DF400DF6D3E /* IHausmeisterUITests.swift */; };
+		EBB595872BBD6DF400DF6D3E /* IHausmeisterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB595862BBD6DF400DF6D3E /* IHausmeisterUITestsLaunchTests.swift */; };
+		EBD27B562BBDC09F007EF4F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B552BBDC09F007EF4F0 /* SettingsView.swift */; };
+		EBD27B582BBDC174007EF4F0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B572BBDC174007EF4F0 /* Model.swift */; };
+		EBD27B5A2BBDC47B007EF4F0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B592BBDC47B007EF4F0 /* SettingsViewModel.swift */; };
+		EBD27B5E2BBDC9E2007EF4F0 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B5D2BBDC9E2007EF4F0 /* TasksView.swift */; };
+		EBD27B602BBDCA43007EF4F0 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B5F2BBDCA43007EF4F0 /* TaskView.swift */; };
+		EBD27B652BBDD52B007EF4F0 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B642BBDD52B007EF4F0 /* CalendarView.swift */; };
+		EBD27B672BBDD74E007EF4F0 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD27B662BBDD74E007EF4F0 /* CalendarViewModel.swift */; };
+		EBDB64DB2BC1D1E1006CDC8D /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB64DA2BC1D1E1006CDC8D /* LinkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB595772BBD6DF400DF6D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB5955E2BBD6DF300DF6D3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB595652BBD6DF300DF6D3E;
+			remoteInfo = iHausmeister;
+		};
+		EBB595812BBD6DF400DF6D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB5955E2BBD6DF300DF6D3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB595652BBD6DF300DF6D3E;
+			remoteInfo = iHausmeister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB21389F2BC021D70085644C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EB2138A12BC023840085644C /* TasksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksModel.swift; sourceTree = "<group>"; };
+		EB25C9F52BC044180089F657 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		EB97207A2BC298D5006AE7FA /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		EB97207C2BC29901006AE7FA /* LinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewModel.swift; sourceTree = "<group>"; };
+		EBB595662BBD6DF300DF6D3E /* iHausmeister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHausmeister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB595692BBD6DF300DF6D3E /* IHausmeisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHausmeisterApp.swift; sourceTree = "<group>"; };
+		EBB5956B2BBD6DF300DF6D3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBB5956D2BBD6DF400DF6D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB595702BBD6DF400DF6D3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBB595762BBD6DF400DF6D3E /* iHausmeisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHausmeisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB5957A2BBD6DF400DF6D3E /* IHausmeisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHausmeisterTests.swift; sourceTree = "<group>"; };
+		EBB595802BBD6DF400DF6D3E /* iHausmeisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHausmeisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB595842BBD6DF400DF6D3E /* IHausmeisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHausmeisterUITests.swift; sourceTree = "<group>"; };
+		EBB595862BBD6DF400DF6D3E /* IHausmeisterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHausmeisterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBD27B542BBD974E007EF4F0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		EBD27B552BBDC09F007EF4F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EBD27B572BBDC174007EF4F0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EBD27B592BBDC47B007EF4F0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		EBD27B5D2BBDC9E2007EF4F0 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		EBD27B5F2BBDCA43007EF4F0 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		EBD27B642BBDD52B007EF4F0 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		EBD27B662BBDD74E007EF4F0 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		EBDB64DA2BC1D1E1006CDC8D /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB595632BBD6DF300DF6D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0B35AE2BC2636900AC0F65 /* iCalendarParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB595732BBD6DF400DF6D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB5957D2BBD6DF400DF6D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB5955D2BBD6DF300DF6D3E = {
+			isa = PBXGroup;
+			children = (
+				EBD27B542BBD974E007EF4F0 /* Readme.md */,
+				EBB595682BBD6DF300DF6D3E /* iHausmeister */,
+				EBB595792BBD6DF400DF6D3E /* iHausmeisterTests */,
+				EBB595832BBD6DF400DF6D3E /* iHausmeisterUITests */,
+				EBB595672BBD6DF300DF6D3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB595672BBD6DF300DF6D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB595662BBD6DF300DF6D3E /* iHausmeister.app */,
+				EBB595762BBD6DF400DF6D3E /* iHausmeisterTests.xctest */,
+				EBB595802BBD6DF400DF6D3E /* iHausmeisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB595682BBD6DF300DF6D3E /* iHausmeister */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB64D92BC1D1D1006CDC8D /* Link Subsystem */,
+				EBD27B632BBDD513007EF4F0 /* Calendar Subsystem */,
+				EBD27B5C2BBDC9C2007EF4F0 /* Tasks Subsystem */,
+				EBB595692BBD6DF300DF6D3E /* IHausmeisterApp.swift */,
+				EBB5956B2BBD6DF300DF6D3E /* ContentView.swift */,
+				EBB5956D2BBD6DF400DF6D3E /* Assets.xcassets */,
+				EBB5956F2BBD6DF400DF6D3E /* Preview Content */,
+				EBD27B682BBE68DC007EF4F0 /* Settings Subsystem */,
+				EBD27B572BBDC174007EF4F0 /* Model.swift */,
+			);
+			path = iHausmeister;
+			sourceTree = "<group>";
+		};
+		EBB5956F2BBD6DF400DF6D3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBB595702BBD6DF400DF6D3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBB595792BBD6DF400DF6D3E /* iHausmeisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB5957A2BBD6DF400DF6D3E /* IHausmeisterTests.swift */,
+			);
+			path = iHausmeisterTests;
+			sourceTree = "<group>";
+		};
+		EBB595832BBD6DF400DF6D3E /* iHausmeisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB595842BBD6DF400DF6D3E /* IHausmeisterUITests.swift */,
+				EBB595862BBD6DF400DF6D3E /* IHausmeisterUITestsLaunchTests.swift */,
+			);
+			path = iHausmeisterUITests;
+			sourceTree = "<group>";
+		};
+		EBD27B5C2BBDC9C2007EF4F0 /* Tasks Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				EB2138A12BC023840085644C /* TasksModel.swift */,
+				EBD27B5D2BBDC9E2007EF4F0 /* TasksView.swift */,
+				EBD27B5F2BBDCA43007EF4F0 /* TaskView.swift */,
+			);
+			path = "Tasks Subsystem";
+			sourceTree = "<group>";
+		};
+		EBD27B632BBDD513007EF4F0 /* Calendar Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				EBD27B642BBDD52B007EF4F0 /* CalendarView.swift */,
+				EBD27B662BBDD74E007EF4F0 /* CalendarViewModel.swift */,
+				EB21389F2BC021D70085644C /* Event.swift */,
+			);
+			path = "Calendar Subsystem";
+			sourceTree = "<group>";
+		};
+		EBD27B682BBE68DC007EF4F0 /* Settings Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				EBD27B552BBDC09F007EF4F0 /* SettingsView.swift */,
+				EBD27B592BBDC47B007EF4F0 /* SettingsViewModel.swift */,
+				EB25C9F52BC044180089F657 /* AboutView.swift */,
+			);
+			path = "Settings Subsystem";
+			sourceTree = "<group>";
+		};
+		EBDB64D92BC1D1D1006CDC8D /* Link Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB64DA2BC1D1E1006CDC8D /* LinkView.swift */,
+				EB97207A2BC298D5006AE7FA /* LinkModel.swift */,
+				EB97207C2BC29901006AE7FA /* LinkViewModel.swift */,
+			);
+			path = "Link Subsystem";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB595652BBD6DF300DF6D3E /* iHausmeister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB5958A2BBD6DF400DF6D3E /* Build configuration list for PBXNativeTarget "iHausmeister" */;
+			buildPhases = (
+				EBB595622BBD6DF300DF6D3E /* Sources */,
+				EBB595632BBD6DF300DF6D3E /* Frameworks */,
+				EBB595642BBD6DF300DF6D3E /* Resources */,
+				EBB595932BBD6E7300DF6D3E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHausmeister;
+			packageProductDependencies = (
+				EB0B35AD2BC2636900AC0F65 /* iCalendarParser */,
+			);
+			productName = iHausmeister;
+			productReference = EBB595662BBD6DF300DF6D3E /* iHausmeister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB595752BBD6DF400DF6D3E /* iHausmeisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB5958D2BBD6DF400DF6D3E /* Build configuration list for PBXNativeTarget "iHausmeisterTests" */;
+			buildPhases = (
+				EBB595722BBD6DF400DF6D3E /* Sources */,
+				EBB595732BBD6DF400DF6D3E /* Frameworks */,
+				EBB595742BBD6DF400DF6D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB595782BBD6DF400DF6D3E /* PBXTargetDependency */,
+			);
+			name = iHausmeisterTests;
+			productName = iHausmeisterTests;
+			productReference = EBB595762BBD6DF400DF6D3E /* iHausmeisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBB5957F2BBD6DF400DF6D3E /* iHausmeisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB595902BBD6DF400DF6D3E /* Build configuration list for PBXNativeTarget "iHausmeisterUITests" */;
+			buildPhases = (
+				EBB5957C2BBD6DF400DF6D3E /* Sources */,
+				EBB5957D2BBD6DF400DF6D3E /* Frameworks */,
+				EBB5957E2BBD6DF400DF6D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB595822BBD6DF400DF6D3E /* PBXTargetDependency */,
+			);
+			name = iHausmeisterUITests;
+			productName = iHausmeisterUITests;
+			productReference = EBB595802BBD6DF400DF6D3E /* iHausmeisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB5955E2BBD6DF300DF6D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EBB595652BBD6DF300DF6D3E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EBB595752BBD6DF400DF6D3E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EBB595652BBD6DF300DF6D3E;
+					};
+					EBB5957F2BBD6DF400DF6D3E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EBB595652BBD6DF300DF6D3E;
+					};
+				};
+			};
+			buildConfigurationList = EBB595612BBD6DF300DF6D3E /* Build configuration list for PBXProject "iHausmeister" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB5955D2BBD6DF300DF6D3E;
+			packageReferences = (
+				EB0B35AC2BC2636900AC0F65 /* XCRemoteSwiftPackageReference "iCalendarParser" */,
+			);
+			productRefGroup = EBB595672BBD6DF300DF6D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB595652BBD6DF300DF6D3E /* iHausmeister */,
+				EBB595752BBD6DF400DF6D3E /* iHausmeisterTests */,
+				EBB5957F2BBD6DF400DF6D3E /* iHausmeisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB595642BBD6DF300DF6D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB595712BBD6DF400DF6D3E /* Preview Assets.xcassets in Resources */,
+				EBB5956E2BBD6DF400DF6D3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB595742BBD6DF400DF6D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB5957E2BBD6DF400DF6D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBB595932BBD6E7300DF6D3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB595622BBD6DF300DF6D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD27B5A2BBDC47B007EF4F0 /* SettingsViewModel.swift in Sources */,
+				EBDB64DB2BC1D1E1006CDC8D /* LinkView.swift in Sources */,
+				EB2138A02BC021D70085644C /* Event.swift in Sources */,
+				EBD27B602BBDCA43007EF4F0 /* TaskView.swift in Sources */,
+				EBD27B5E2BBDC9E2007EF4F0 /* TasksView.swift in Sources */,
+				EB25C9F62BC044180089F657 /* AboutView.swift in Sources */,
+				EBD27B672BBDD74E007EF4F0 /* CalendarViewModel.swift in Sources */,
+				EB97207D2BC29901006AE7FA /* LinkViewModel.swift in Sources */,
+				EB97207B2BC298D5006AE7FA /* LinkModel.swift in Sources */,
+				EBD27B562BBDC09F007EF4F0 /* SettingsView.swift in Sources */,
+				EBD27B652BBDD52B007EF4F0 /* CalendarView.swift in Sources */,
+				EBB5956C2BBD6DF300DF6D3E /* ContentView.swift in Sources */,
+				EBB5956A2BBD6DF300DF6D3E /* IHausmeisterApp.swift in Sources */,
+				EBD27B582BBDC174007EF4F0 /* Model.swift in Sources */,
+				EB2138A22BC023840085644C /* TasksModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB595722BBD6DF400DF6D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB5957B2BBD6DF400DF6D3E /* IHausmeisterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB5957C2BBD6DF400DF6D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB595852BBD6DF400DF6D3E /* IHausmeisterUITests.swift in Sources */,
+				EBB595872BBD6DF400DF6D3E /* IHausmeisterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB595782BBD6DF400DF6D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB595652BBD6DF300DF6D3E /* iHausmeister */;
+			targetProxy = EBB595772BBD6DF400DF6D3E /* PBXContainerItemProxy */;
+		};
+		EBB595822BBD6DF400DF6D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB595652BBD6DF300DF6D3E /* iHausmeister */;
+			targetProxy = EBB595812BBD6DF400DF6D3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBB595882BBD6DF400DF6D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB595892BBD6DF400DF6D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB5958B2BBD6DF400DF6D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iHausmeister/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BKZY9TP6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iHausmeister/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.cit.ase.iHausmeister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB5958C2BBD6DF400DF6D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iHausmeister/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BKZY9TP6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iHausmeister/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.cit.ase.iHausmeister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBB5958E2BBD6DF400DF6D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BKZY9TP6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.cit.ase.iHausmeisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHausmeister.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iHausmeister";
+			};
+			name = Debug;
+		};
+		EBB5958F2BBD6DF400DF6D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BKZY9TP6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.cit.ase.iHausmeisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHausmeister.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iHausmeister";
+			};
+			name = Release;
+		};
+		EBB595912BBD6DF400DF6D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BKZY9TP6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.cit.ase.iHausmeisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iHausmeister;
+			};
+			name = Debug;
+		};
+		EBB595922BBD6DF400DF6D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BKZY9TP6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tum.cit.ase.iHausmeisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iHausmeister;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB595612BBD6DF300DF6D3E /* Build configuration list for PBXProject "iHausmeister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB595882BBD6DF400DF6D3E /* Debug */,
+				EBB595892BBD6DF400DF6D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB5958A2BBD6DF400DF6D3E /* Build configuration list for PBXNativeTarget "iHausmeister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB5958B2BBD6DF400DF6D3E /* Debug */,
+				EBB5958C2BBD6DF400DF6D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB5958D2BBD6DF400DF6D3E /* Build configuration list for PBXNativeTarget "iHausmeisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB5958E2BBD6DF400DF6D3E /* Debug */,
+				EBB5958F2BBD6DF400DF6D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB595902BBD6DF400DF6D3E /* Build configuration list for PBXNativeTarget "iHausmeisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB595912BBD6DF400DF6D3E /* Debug */,
+				EBB595922BBD6DF400DF6D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB0B35AC2BC2636900AC0F65 /* XCRemoteSwiftPackageReference "iCalendarParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmail-me/iCalendarParser.git";
+			requirement = {
+				kind = revision;
+				revision = f87378ca7b2d59533c9562324b17a8caf20f26a2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB0B35AD2BC2636900AC0F65 /* iCalendarParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB0B35AC2BC2636900AC0F65 /* XCRemoteSwiftPackageReference "iCalendarParser" */;
+			productName = iCalendarParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EBB5955E2BBD6DF300DF6D3E /* Project object */;
+}
